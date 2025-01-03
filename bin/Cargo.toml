@@ -1,0 +1,11 @@
+[package]
+name = "bin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+program = { path = "../program" }
+solana-client = "2.1.0"
+solana-sdk = "2.1.0"
+solana-test-validator = "2.1.0"
+tokio = { workspace = true, features = ["full"] }
